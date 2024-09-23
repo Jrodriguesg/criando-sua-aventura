@@ -1,0 +1,33 @@
+body{
+    background-color: hotpink;
+    color: darkmagenta;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 670px;
+    margin: 0;
+}
+
+button {
+    background-color: aqua;
+    color: darkmagenta;
+    font-family: "Playfair Display", serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align:center;
+    max-width:92%;
+}
+
+img {
+    max-width:70%;
+}
